@@ -1,9 +1,8 @@
-
 .header {
-    background: linear-gradient(to right,#fc9bd7,#fc79ca, #f5b1db);
-                                                                                   
+    background: linear-gradient(to right, #fc9bd7, #fc79ca, #f5b1db);
+
     display: flex;
- 
+
     align-items: center;
     width: 100%;
     height: auto;
@@ -11,8 +10,8 @@
 
 }
 
-.text{
-    font-family:'Times New Roman', Times, serif ;
+.text {
+    font-family: 'Times New Roman', Times, serif;
     justify-content: center;
 }
 
@@ -22,24 +21,25 @@
     text-align: left;
 }
 
-.btn{
-    background-color: #f8cbe7;
+.btn {
+    background-color: #fcaede;
     margin-top: 10px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
-.btn:hover{
+
+.btn:hover {
     background-color: #da5daa;
 }
 
 
-#dadoscad{
-    background-color: #f8cbe7;
+#dadoscad {
+    background: linear-gradient(to bottom, #f8cbe7, #fcaede, #ff91d5);
 }
 
-.row{
-    margin-top:50px;
+.row {
+    margin-top: 50px;
     margin-left: 250px;
-    
+
 }
 
 .form-control,
@@ -54,23 +54,22 @@
 .card {
     border: none;
     border-radius: 10px;
-    
+
 }
 
 #form {
-    background-color: #f8cbe7;
+    background: linear-gradient(to bottom, #f8cbe7, #fcaede, #ff91d5);
     margin-left: -112px;
 }
 
-h2{
-    font-family: 'Courier New', Courier, monospace;
-
+h2 {
+    font-family: 'Times New Roman', Times, serif
 }
 
-th{
+th {
     font-family: 'Times New Roman', Times, serif;
 }
 
-label{ 
-    font-family:'Times New Roman', Times, serif ;
+label {
+    font-family: 'Times New Roman', Times, serif;
 }

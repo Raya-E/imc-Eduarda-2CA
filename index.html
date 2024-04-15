@@ -15,98 +15,98 @@
 
 <body>
 
-    <header >
+    <he ader>
         <div class="header">
-            <img class="logo" src="https://64.media.tumblr.com/bbae36cbf49cb5f17b09e8bd553d1654/5d3728807fcf0033-5b/s400x600/544bf366553409019ef3bfb1091201522f33f668.png" alt="Logo">
+            <img class="logo"
+                src="https://64.media.tumblr.com/bbae36cbf49cb5f17b09e8bd553d1654/5d3728807fcf0033-5b/s400x600/544bf366553409019ef3bfb1091201522f33f668.png"
+                alt="Logo">
             <h1 class="text">CADASTRO</h1>
-            
-         
-           
+
+
+
         </div>
-    </header>
+        </header>
 
-    <main class="container">
-        <div class="row">
-            <div class=" col-md-6 col-12" id="form">
-                <div class="py-5">
+        <main class="container">
+            <div class="row">
+                <div class=" col-md-6 col-12" id="form">
+                    <div class="py-5">
 
-                    <div class="card">
-                        <ul class="list-group list-group-flush">
-                            <li class="list-group-item">
-                                <div class="py-3">
-                                    <label for="nome">Nome:</label>
-                                    <input id="nome" type="text" placeholder="Digite seu nome" class="form-control">
-                                </div>
-                            </li>
 
-                            <li class="list-group-item">
-                                <div class="py-3">
-                                    <label for="sobrenome">Sobrenome:</label>
-                                    <input id="sobrenome" type="text" placeholder="Digite seu sobrenome" class="form-control">
-                                </div>
-                            </li>
 
-                            <li class="list-group-item">
-                                <div class="row">
-                                    <div class="col">
-                                        <label for="categoria">Categoria:</label>
-                                        <select id="categoria" class="form-select">
-                                            <option value="Criança">Criança</option>
-                                            <option value="Adulto">Adulto</option>
-                                        </select>
-                                    </div>
-                                    <div class="col">
-                                        <label for="peso">Peso:</label>
-                                        <input id="peso" type="number" placeholder="Digite seu peso" class="form-control">
-                                    </div>
-                                    <div class="col">
-                                        <label for="altura">Altura:</label>
-                                        <input id="altura" type="number" placeholder="Digite sua altura" class="form-control">
-                                    </div>
-                                </div>
-                            </li>
-                            
-                        </ul>
+                        <div class="py-3">
+                            <label for="nome">Nome:</label>
+                            <input id="nome" type="text" placeholder="Digite seu nome" class="form-control">
+                        </div>
+                        </li>
+
+
+                        <div class="py-3">
+                            <label for="sobrenome">Sobrenome:</label>
+                            <input id="sobrenome" type="text" placeholder="Digite seu sobrenome" class="form-control">
+                        </div>
+                        </li>
+
+
+                        <div class="row">
+                            <div class="col-md-6 col-12">
+                                <label for="categoria">Categoria:</label>
+                                <select id="categoria" class="form-select">
+                                    <option value="Criança">Criança</option>
+                                    <option value="Adulto">Adulto</option>
+                                </select>
+                            </div>
+                            <div class="col-md-3 col-6">
+                                <label for="peso">Peso:</label>
+                                <input id="peso" type="number" placeholder="Digite seu peso" class="form-control">
+                            </div>
+                            <div class="col-md-3 col-6">
+                                <label for="altura">Altura:</label>
+                                <input id="altura" type="number" placeholder="Digite sua altura" class="form-control">
+                            </div>
+                        </div>
+
+
+
+
+                        <div class="py-3">
+                            <button class="btn" id="btn">Cadastrar</button>
+                        </div>
                     </div>
+                </div>
 
-                    <div class="py-3">
-                        <button class="btn" id="btn">Cadastrar</button>
+
+
+                <div class=" col-md-6 col-12" id="dadoscad">
+                    <div class="py-5">
+                        <h2>Dados Cadastrados</h2>
+
+
+                        <table class="table table-hover">
+                            <thead>
+                                <tr>
+                                    <th> Nome</th>
+                                    <th> Categoria</th>
+                                    <th> IMC</th>
+                                </tr>
+                            </thead>
+
+                            <tbody id="resultado">
+                        </table>
+
                     </div>
                 </div>
             </div>
-
-
-
-            <div class=" col-md-6 col-12" id="dadoscad">
-                <div class="py-5">
-                    <h2>Dados Cadastrados</h2>
-
-                 
-                    <table class="table table-hover">
-                        <thead >
-                            <tr >
-                                <th> Nome</th>
-                                <th> Categoria</th>
-                                <th> IMC</th>
-                            </tr>
-                        </thead>
-
-                        <tbody id="resultado">
-                    </table>
-                
-                </div>
-            </div>
-        </div>
-    </main>
+        </main>
 
 
 
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
-        crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+            crossorigin="anonymous"></script>
 
-    <script src="js/app.js"></script>
+        <script src="js/app.js"></script>
 </body>
 
 </html>

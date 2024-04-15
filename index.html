@@ -15,66 +15,76 @@
 
 <body>
 
-    <header class="bg-dark text-center p-5">
-        <h1 class="display-3 text-white"> CADASTRO</h1>
+    <header >
+        <div class="header">
+            <img class="logo" src="https://64.media.tumblr.com/bbae36cbf49cb5f17b09e8bd553d1654/5d3728807fcf0033-5b/s400x600/544bf366553409019ef3bfb1091201522f33f668.png" alt="Logo">
+            <h1 class="text">CADASTRO</h1>
+            
+         
+           
+        </div>
     </header>
 
     <main class="container">
         <div class="row">
-            <div class=" col-md-6 col-12">
+            <div class=" col-md-6 col-12" id="form">
                 <div class="py-5">
-                    <h2>Formulário</h2>
+
+                    <div class="card">
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item">
+                                <div class="py-3">
+                                    <label for="nome">Nome:</label>
+                                    <input id="nome" type="text" placeholder="Digite seu nome" class="form-control">
+                                </div>
+                            </li>
+
+                            <li class="list-group-item">
+                                <div class="py-3">
+                                    <label for="sobrenome">Sobrenome:</label>
+                                    <input id="sobrenome" type="text" placeholder="Digite seu sobrenome" class="form-control">
+                                </div>
+                            </li>
+
+                            <li class="list-group-item">
+                                <div class="row">
+                                    <div class="col">
+                                        <label for="categoria">Categoria:</label>
+                                        <select id="categoria" class="form-select">
+                                            <option value="Criança">Criança</option>
+                                            <option value="Adulto">Adulto</option>
+                                        </select>
+                                    </div>
+                                    <div class="col">
+                                        <label for="peso">Peso:</label>
+                                        <input id="peso" type="number" placeholder="Digite seu peso" class="form-control">
+                                    </div>
+                                    <div class="col">
+                                        <label for="altura">Altura:</label>
+                                        <input id="altura" type="number" placeholder="Digite sua altura" class="form-control">
+                                    </div>
+                                </div>
+                            </li>
+                            
+                        </ul>
+                    </div>
 
                     <div class="py-3">
-                        <label for="nome">Nome:</label>
-                        <input id="nome" type="text" placeholder="Digite seu nome" class="form-control">
+                        <button class="btn" id="btn">Cadastrar</button>
                     </div>
-
-
-                    <div class="py-3">
-                        <label for="sobrenome">Sobrenome:</label>
-                        <input id="sobrenome" type="text" placeholder="Digite seu sobrenome" class="form-control">
-                    </div>
-
-                    <div class="row">
-
-                        <div class="col-4">
-                            <label for="categoria">Categoria:</label>
-                            <select id="categoria" class="form-control">
-                                <option value="Criança">Criança</option>
-                                <option value="Adulto">Adulto</option>
-                            </select>
-                        </div>
-
-
-                        <div class="col-4">
-                            <label for="peso">Peso:</label>
-                            <input id="peso" type="number" placeholder="Digite seu peso" class="form-control">
-                        </div>
-
-
-                        <div class="col-4">
-                            <label for="altura">Altura:</label>
-                            <input id="altura" type="number" placeholder="Digite seu altura" class="form-control">
-                        </div>
-
-                    </div>
-
-                    <div class="p-3">
-                        <button class="btn btn-outline-warning" id="btn">Cadastrar</button>
-                    </div>
-
-
                 </div>
             </div>
 
-            <div class=" col-md-6 col-12">
+
+
+            <div class=" col-md-6 col-12" id="dadoscad">
                 <div class="py-5">
                     <h2>Dados Cadastrados</h2>
 
+                 
                     <table class="table table-hover">
-                        <thead>
-                            <tr>
+                        <thead >
+                            <tr >
                                 <th> Nome</th>
                                 <th> Categoria</th>
                                 <th> IMC</th>
@@ -82,18 +92,8 @@
                         </thead>
 
                         <tbody id="resultado">
-
-                        </tbody>
-
-
                     </table>
-
-
-
-
-
-
-                    <div></div>
+                
                 </div>
             </div>
         </div>

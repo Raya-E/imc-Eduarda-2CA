@@ -1,0 +1,76 @@
+
+.header {
+    background: linear-gradient(to right,#fc9bd7,#fc79ca, #f5b1db);
+                                                                                   
+    display: flex;
+ 
+    align-items: center;
+    width: 100%;
+    height: auto;
+    width: auto;
+
+}
+
+.text{
+    font-family:'Times New Roman', Times, serif ;
+    justify-content: center;
+}
+
+.logo {
+    height: 100px;
+    width: 100px;
+    text-align: left;
+}
+
+.btn{
+    background-color: #f8cbe7;
+    margin-top: 10px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.btn:hover{
+    background-color: #da5daa;
+}
+
+
+#dadoscad{
+    background-color: #f8cbe7;
+}
+
+.row{
+    margin-top:50px;
+    margin-left: 250px;
+    
+}
+
+.form-control,
+.form-select {
+    width: 100%;
+}
+
+.list-group-item {
+    padding: 0;
+}
+
+.card {
+    border: none;
+    border-radius: 10px;
+    
+}
+
+#form {
+    background-color: #f8cbe7;
+    margin-left: -112px;
+}
+
+h2{
+    font-family: 'Courier New', Courier, monospace;
+
+}
+
+th{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+label{ 
+    font-family:'Times New Roman', Times, serif ;
+}
